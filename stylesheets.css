@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("images/another-dark-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gray;
+  color: whitesmoke;
+
+}
+
+.the-title {
+  font-size: 1.5rem;
+  margin: .5rem;
+}
+
+.links-bar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+}
+
+.links-bar li {
+  list-style: none;
+
+}
+
+.links-bar a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 1rem;
+  display: block;
+  font-size: 1.2rem;
+  font-style: oblique;
+
+
+}
+.the-title:hover {
+  background-color: black;
+}
+
+.links-bar li:hover {
+  background-color: blue;
+  color: black;
+}
+
+.toggle {
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width:30px;
+  height: 21px;
+
+}
+
+.toggle .bar {
+  height: 3px;
+  width: 100%;
+  background-color: rgba(247, 237, 237, 0.705);
+  border-radius: 10px;
+}
+
+@media (max-width: 600px ){
+  .toggle{
+    display: flex;
+  }
+  .links-bar{
+    display: none;
+    width: 100%;
+
+  }
+  .navbar{
+    flex-direction:column ;
+    align-items: flex-start;
+
+  }
+  .links-bar ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .links-bar {
+    text-align: center;
+
+  }
+  .links-bar li a {
+    padding: .5rem 1rem;
+  }
+  .links-bar.active {
+    display: flex;
+  }
+}
