@@ -1,14 +1,15 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-  background-image: url("images/another-dark-wallpaper.jpg");
+  /* background-image: url("images/another-dark-wallpaper.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  margin: 0;
-  padding: 0;
+  
 }
 
 .navbar {
@@ -18,12 +19,15 @@ body {
   align-items: center;
   background-color: gray;
   color: whitesmoke;
+  padding: 5px;
 
 }
 
-.the-title {
-  font-size: 1.5rem;
-  margin: .5rem;
+nav .the-title {
+  font-size: 35px ;
+  text-decoration: none;
+  font-style: oblique;
+  
 }
 
 .links-bar ul {

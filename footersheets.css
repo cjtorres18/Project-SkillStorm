@@ -1,0 +1,45 @@
+#footer {
+  padding: 35px;
+  background-color: rgba(53, 50, 50, 0.61);
+  
+}
+
+#footer .content {
+  text-align: center;
+  border-bottom: 1px solid rgb(19, 18, 18);
+  padding: 0 0 30px;
+  margin: 0 0 30px;
+  
+
+}
+
+#footer .social {
+  display: flex;
+  justify-content: center;
+  font-size: 0px;
+  margin: 0 0 20px;
+  
+}
+
+#footer .social li {
+  padding: 0 25px;
+
+}
+
+#footer .social a {
+  color: rgb(8, 8, 8);
+}
+
+#footer .social a:hover {
+  color: rgba(199, 199, 207, 0.274);
+}
+
+#footer .copyright {
+  text-align: center;
+  color: rgb(219, 209, 209);
+
+}
+
+#footer .copyright a {
+  color:  rgb(219, 209, 209);
+}
