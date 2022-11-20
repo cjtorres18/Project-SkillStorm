@@ -49,9 +49,10 @@ nav .the-title {
   display: block;
   font-size: 1.2rem;
   font-style: oblique;
-
-
 }
+
+
+
 .the-title:hover {
   background-color: black;
 }

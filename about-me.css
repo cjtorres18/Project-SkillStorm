@@ -1,0 +1,33 @@
+#about{
+	width:100%;
+	height: 100vh;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: px 5% 0px 5%;
+	position: relative;
+}
+.about-text{
+	font-family: calibri;
+	width: 50%;
+}
+.about-text h1{
+	font-size: 5rem;
+	color:#02110e;
+}
+
+.about-text h1{
+	margin: 0px;
+	padding: 0px;
+}
+.about-text p{
+	font-size: 1.2rem;
+	color:rgba(243, 35, 35, 0.9);
+	
+}
+
+.about-model img {
+  width: 100%;
+  height: auto;
+}

@@ -1,11 +1,11 @@
 #footer {
-  padding: 35px;
+  padding: 55px;
   background-color: rgba(53, 50, 50, 0.61);
   
 }
 
 #footer .content {
-  text-align: center;
+  text-align: center; 
   border-bottom: 1px solid rgb(19, 18, 18);
   padding: 0 0 30px;
   margin: 0 0 30px;
