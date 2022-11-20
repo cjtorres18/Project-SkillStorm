@@ -44,7 +44,29 @@
 
 
   <main>
-  
+    <div class="maincontainer">
+      <form action="action_page.php">
+    
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="First Name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Last Name..">
+    
+        <label for="city">City</label>
+        <select id="city" name="city">
+          <option value="orlando">Orlando</option>
+          <option value="tampa">Tampa</option>
+          <option value="kissimmee">Kissimmee</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Please type something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+    
+      </form>
+    </div>
 
   </main>
    

@@ -12,15 +12,15 @@ padding-top: 40px ;
 }
 
 .s-heading h1{
-color:#FFFFFF;
+color:#eb1414;
 font-size: 3rem;
 margin: 0px;
 padding: 0px;
 
 }
 .s-heading p{
-color:rgba(255,255,255,0.30);
-font-size: 1rem;
+color:rgba(95, 26, 223, 0.3);
+font-size: 2rem;
 margin: 0px;
 padding: 0px;
 }
@@ -29,7 +29,7 @@ text-align: center;
 margin: 20px 0px;
 }
 .s-box{
-background-color: #2B2B2B;
+background-color: #161111;
 width:350px;
 height: 500px;
 margin: 20px;
@@ -78,7 +78,7 @@ max-width: 80%;
   text-overflow: ellipsis;
 }
 .s-b-text a:hover{
-color:rgba(255,255,255,0.50)
+color:rgba(167, 48, 48, 0.5)
 }
 .s-type{
 font-family: calibri;
