@@ -1,95 +1,168 @@
 #my-journey{
-width:100%;
-height: 80vh;
-box-sizing: border-box;
-font-family: calibri;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-padding-top: 40px ;
-
-}
-
-.s-heading h1{
-color:#b19e9e;
-font-size: 5rem;
-margin: 0px;
-padding: 0px;
-}
-
-.s-heading{
-text-align: center;
-margin: 20px 0px;
-}
-.s-box{
-background-color: #080808;
-width:450px;
-height: 500px;
-margin: 20px;
-border-radius: 10px;
-overflow: hidden;
-box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
-position: relative;
-}
-.b-container{
-display: flex;
-justify-content: center;
-align-content: center;
-
-
-}
-.s-b-img{
-width: 100%;
-height: 70%;
-image-resolution:initial;
-
-}
-.s-b-img img{
-width:100%;
-height: 100%;
-
-}
-.s-b-text{
-width: 100%;
-height: 30%;
-background-color:#1E1E1E;
-display:flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-}
-.s-b-text a{
-margin: 0px;
-color:#FFFFFF;
-font-size: 1.1rem;
-font-family: calibri;
-display: block;
-  display: -webkit-box;
-max-width: 80%;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
+  width:100%;
+  height: 80vh;
+  box-sizing: border-box;
+  font-family: calibri;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px ;
+  
+  }
+  
+  .tittle h1 {
+  color:#b19e9e;
+  font-size: 5rem;
+  margin: 0px;
+  padding: 0px;
+  }
+  
+  .tittle {
+  text-align: center;
+  margin: 20px 0px;
+  }
+  .first-block{
+  background-color: #080808;
+  background-image: url("images/family-grad.JPG");
+  background-size: 100%;
+  background-position: 0px -80px;
+  width:450px;
+  height: 500px;
+  margin: 20px;
+  border-radius: 10px;
   overflow: hidden;
-  text-overflow: ellipsis;
-}
-.s-b-text a:hover{
-color:rgba(167, 154, 154, 0.5)
-}
-.s-type{
-font-family: calibri;
-color:#FFFFFF;
-background-color: #151515;
-padding: 10px 15px;
-position: absolute;
-top: 0px;
-left: 50%;
-transform: translateX(-50%);
-font-size: 18px;
-border-radius: 0px 0px 10px 10px;
-box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
-}
-.s-box:hover{
-transform:translateY(-10px);
-transition: all ease 0.3s;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+  position: relative;
+  }
 
+  .second-block {
+  background-color: #080808;
+  background-image: url("images/brothers-me.JPG");
+  background-size: 100%;
+  background-position: 0px -80px;
+  width:450px;
+  height: 500px;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+  position: relative;
+  }
+
+  .third-block {
+  background-color: #080808;
+  background-image: url("images/sport-kuwait.JPG");
+  background-size: 100%;
+  background-position: 0px -80px;
+  width:450px;
+  height: 500px;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+  position: relative;
+  }
+
+  .fourth-block {
+  background-color: #080808;
+  background-image: url("images/military-me.jpg");
+  background-size: 100%;
+  background-position: 0px -80px;
+  width:450px;
+  height: 500px;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+  position: relative;
+  }
+
+.five-block {
+  background-color: #080808;
+  background-image: url("images/wife-me.jpeg");
+  background-size: 100%;
+  background-position: 0px -80px;
+  width:450px;
+  height: 500px;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+  position: relative;
 }
+
+.six-block {
+  background-color: #080808;
+  background-image: url("images/traveling-wife.jpeg");
+  background-size: 100%;
+  background-position: 0px -80px;
+  width:450px;
+  height: 500px;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+  position: relative;
+}
+  .main-block{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  }
+
+  .journey-text{
+  width: 100%;
+  height: 30%;
+  background-color:#1E1E1E; 
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+  .journey-text a{
+  margin: 0px;
+  color:#FFFFFF;
+  font-size: 1.1rem;
+  font-family: calibri;
+  display: block;
+    display: -webkit-box;
+  max-width: 80%;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .journey-text a:hover{
+  color:rgba(167, 154, 154, 0.5)
+  }
+ 
+  .first-block:hover {
+  transform:translateY(-10px);
+  transition: all ease 0.3s;
+  }
+  
+  .second-block:hover {
+  transform:translateY(-10px);
+  transition: all ease 0.3s;
+    
+  }
+
+  .third-block:hover{
+  transform:translateY(-10px);
+  transition: all ease 0.3s;
+  }
+  .four-block:hover{
+  transform:translateY(-10px);
+  transition: all ease 0.3s;
+  }
+  
+  .five-block:hover{
+  transform:translateY(-10px);
+  transition: all ease 0.3s;
+  }
+  
+  .six-block:hover{
+  transform:translateY(-10px);
+  transition: all ease 0.3s;
+  }  

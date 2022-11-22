@@ -1,10 +1,10 @@
 #footer {
   padding: 55px;
-  background-color: rgba(53, 50, 50, 0.61);
+  background-color: rgba(61, 58, 58, 0.61);
   
 }
 
-#footer .content {
+.content {
   text-align: center; 
   border-bottom: 1px solid rgb(19, 18, 18);
   padding: 0 0 30px;
@@ -13,7 +13,7 @@
 
 }
 
-#footer .social {
+.social {
   display: flex;
   justify-content: center;
   font-size: 0px;
@@ -21,25 +21,25 @@
   
 }
 
-#footer .social li {
+.social li {
   padding: 0 25px;
 
 }
 
-#footer .social a {
+.social a {
   color: rgb(8, 8, 8);
 }
 
-#footer .social a:hover {
+.social a:hover {
   color: rgba(199, 199, 207, 0.274);
 }
 
-#footer .copyright {
+.copyright {
   text-align: center;
   color: rgb(219, 209, 209);
 
 }
 
-#footer .copyright a {
-  color:  rgb(219, 209, 209);
+.copyright a {
+  color:  rgba(168, 164, 164, 0.514);
 }

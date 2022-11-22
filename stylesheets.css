@@ -19,14 +19,15 @@ body {
   align-items: center;
   background-color: gray;
   color: whitesmoke;
-  padding: 5px;
+  padding: 15px;
 
 }
 
-nav .the-title {
+.the-title a {
   font-size: 35px ;
   text-decoration: none;
   font-style: oblique;
+  color: whitesmoke;
   
 }
 
