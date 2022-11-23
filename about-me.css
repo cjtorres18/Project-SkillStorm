@@ -14,7 +14,7 @@
 }
 .about-text h1{
 	font-size: 5rem;
-	color:#3b8072;
+	color: #18d1acbd;
 }
 
 .about-text h1{
@@ -23,8 +23,7 @@
 }
 .about-text p{
 	font-size: 1.2rem;
-	color:rgba(245, 241, 241, 0.829);
-	
+	color:rgba(236, 225, 225, 0.836);
 }
 .about-model img {
 	max-width: 95%;

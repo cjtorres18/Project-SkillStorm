@@ -17,17 +17,18 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: gray;
-  color: whitesmoke;
+  background-color: rgba(61, 58, 58, 0.61);
+  color:  rgba(236, 225, 225, 0.836);
   padding: 15px;
+  border-bottom: 2px solid rgba(245, 245, 245, 0.801)
 
 }
 
-.the-title a {
+.logo a {
   font-size: 35px ;
   text-decoration: none;
   font-style: oblique;
-  color: whitesmoke;
+  color:  rgba(236, 225, 225, 0.836);
   
 }
 
@@ -45,7 +46,7 @@ body {
 
 .links-bar a {
   text-decoration: none;
-  color: whitesmoke;
+  color:  rgba(236, 225, 225, 0.836);
   padding: 1rem;
   display: block;
   font-size: 1.2rem;
@@ -54,13 +55,13 @@ body {
 
 
 
-.the-title:hover {
-  background-color: black;
+.logo:hover {
+  background-color: rgba(199, 199, 207, 0.274);
 }
 
 .links-bar li:hover {
-  background-color: blue;
-  color: black;
+  background-color: rgba(199, 199, 207, 0.274);
+  color: rgba(199, 199, 207, 0.274);
 }
 
 .toggle {
@@ -78,7 +79,7 @@ body {
 .toggle .bar {
   height: 3px;
   width: 100%;
-  background-color: rgba(247, 237, 237, 0.705);
+  background-color:  rgba(236, 225, 225, 0.836);
   border-radius: 10px;
 }
 

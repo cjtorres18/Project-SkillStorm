@@ -7,6 +7,7 @@
 	padding: 120px 5% 0px 5%;
 	position:relative;
   text-align: center;
+
 }
 
 .tittle-text{
@@ -15,8 +16,8 @@
 }
 .tittle-text h1{
 	font-size: 5rem;
-	color:#18d1ac;
-	border-bottom: 5px solid rgb(23, 212, 64);
+	color:#18d1acbd;
+	border-bottom: 5px solid rgba(228, 235, 229, 0.5);
 }
 
 .tittle-text h1{
@@ -25,7 +26,7 @@
 }
 .tittle-text h2 {
 	font-size: 2.5rem;
-	color: #ddc3c3af;
+	color: #dfc4c4c0;
 	margin: 0px;
 	padding: 0px;
 }
@@ -45,7 +46,7 @@
 
 .home-text h3{
 	font-size: 3rem;
-	color:#1aaedb;
+	color:#18d1acbd;
 	font-weight: 400;
 	margin: 0px;
 	padding: 0px;
@@ -53,7 +54,7 @@
 
 .home-text p{
 	font-size: 1.2rem;
-	color:rgba(228, 197, 197, 0.788);
+	color: rgba(236, 225, 225, 0.836);
 
 	
 }
@@ -63,7 +64,7 @@
 	border-radius: 20px;
 	border: none;
 	outline: none;
-	background-color:#17d1ac;
+	background-color: #18d1acbd;
 
 	
 }
@@ -72,10 +73,11 @@
 	text-decoration: none;
 	font-family: calibri;
 	font-size: 1.2rem;
+	color: black;
 }
 .home-text button:hover{
-	background-color: #FFFFFF;
-	transition: all ease 0.3s;
+	background-color: rgba(199, 199, 207, 0.274);
+	
 }
 
 .home-model img {
